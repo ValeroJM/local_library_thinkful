@@ -23,6 +23,17 @@ describe("Accounts Page", () => {
   });
 
   describe("findAccountById()", () => {
+    it("findAccountById() should be a funtion", () => {
+      const actual = typeof findAccountById;
+      expect(actual).equal("function");
+    })
+
+    it("findAccountById() returns an object", () => {
+      const account = accounts[3];
+      const actual = typeof findAccountById(accounts, account.id);
+      expect(actual).equal("object");
+    })
+
     it("should return the account object when given a particular ID", () => {
       const account = accounts[3];
       const actual = findAccountById(accounts, account.id);

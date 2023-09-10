@@ -21,6 +21,16 @@ describe("Home Page", () => {
   });
 
   describe("getTotalBooksCount()", () => {
+    it("getTotalBooksCount() should be a funtion", () => {
+      const actual = typeof getTotalBooksCount;
+      expect(actual).equal("function");
+    })
+
+    it("getTotalBooksCount() returns a number", () => {
+      const actual = typeof getTotalBooksCount([{}, {}]);
+      expect(actual).equal("number");
+    })
+
     it("should return the total number of books in the array", () => {
       const actual = getTotalBooksCount([{}, {}]);
       expect(actual).to.equal(2);

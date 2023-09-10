@@ -1,6 +1,14 @@
 function findAuthorById(authors, id) {
   // YOUR SOLUTION HERE
-  let result = authors.find((author) => author.id === id);
+  let result = {};
+  
+  for (let authorId in authors){
+    const author = authors[authorId];
+    if (author.id === id){
+      result = author;
+    }
+  };
+  
   return result;
 }
 

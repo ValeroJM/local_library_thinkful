@@ -44,3 +44,15 @@ Here I will include all the files and functions I updated during this assessment
     * function **getTotalBooksCount**(books) -> This function takes an "array of books" and returns the "Total number of books".
     * function **getTotalAccountsCount**(accounts) -> This function takes an "array of accounts" and returns the "Total number of accounts".
     * function **getBooksBorrowedCount**(books) -> This function takes an "array of books" and returns the "Total number of books that are borrowed".
+
+## Extra test Added
+
+Here I will include all the files and scenarios I added to support the testing:
+
+* **accounts.test.js** - (Path: public/test/accounts.test.js) 
+    * Test Case: **findAccountById() should be a funtion** -> Validates the typeOf findAccountById.
+    * Test Case: **findAccountById() returns an object** -> Verifies if the return typeOf findAccountById is an object.
+
+* **main.test.js** - (Path: public/test/main.test.js) 
+    * Test Case: **getTotalBooksCount() should be a funtion** -> Validates the typeOf getTotalBooksCount.
+    * Test Case: **getTotalBooksCount() returns a number** -> Verifies if the return typeOf getTotalBooksCount is a number.
