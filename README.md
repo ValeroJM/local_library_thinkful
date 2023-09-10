@@ -12,7 +12,7 @@ The learning objectives are listed below:
 
 * Solving bugs by using error messages
 
-* Differentiating between *let*, *const*, and *var*, and using each appropriately
+* Differentiating between **let**, **const**, and **var**, and using each appropriately
 
 * Creating an array from a string based on particular criteria and joining arrays into strings
 
@@ -29,7 +29,7 @@ The learning objectives are listed below:
 
 ## Files Paths and Methods
 
-Here I will include all the files and functions I updated during this assessment:
+Here I included all the files and functions I updated during this assessment:
 
 * **accounts.js** - (Path: public/src/accounts.js):
     * function **findAccountById**(accounts, id) -> This function takes an "array of accounts" and an "id" and returns an "account object" that matches the "id".
@@ -47,7 +47,7 @@ Here I will include all the files and functions I updated during this assessment
 
 ## Extra test Added
 
-Here I will include all the files and scenarios I added to support the testing:
+Here I included all the files and scenarios I added to support the testing:
 
 * **accounts.test.js** - (Path: public/test/accounts.test.js) 
     * Test Case: **findAccountById() should be a funtion** -> Validates the typeOf findAccountById.
